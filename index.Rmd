@@ -1,10 +1,10 @@
 ---
-title: "STA2112: Mathematical Statistics I"
-subtitle: "Fall 2022, Course Website"
+title: "STA4508: Topics in Likelihood Inference"
+subtitle: "Winter 2023, Course Website"
 
 output: 
   html_document:
-   theme: flatly
+   theme: co
 ---
 
 ```{r setup, include=FALSE}
@@ -13,23 +13,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-Welcome to the Fall 2022 course website for __STA2112__ (Mathematical Statistics I). This course is offered by the department of [Statistical Sciences](http://utstat.toronto.edu), and is the first of two canonical mathematical statistics courses designed for students in the MSc program in Statistical Sciences.
+Welcome to the Winter 2023 course website for __STA4508__ (Topics in Likelihood Inference). This course is offered by the department of [Statistical Sciences](http://utstat.toronto.edu) and is one of several graduate-level topics courses offered by the department.
 
 __Prerequisites__
 
-Undergraduate-level understanding of 
+Strong command of:
 
 - Advanced calculus (eg. MAT237)
-- Linear algebra (eg. MAT223, MAT224).
+- Linear algebra (eg. MAT223, MAT224)
+- Mathematical statisics (eg. STA2112)
 
-A previous course in probability and/or statistics is highly recommended.  Prerequisites will not be waived.  Enrollment is restricted to graduate students in Statistics, Biostatistics, and Computer Science.
+Enrollment is restricted to graduate students in Statistics, Biostatistics, and Computer Science.
 
 __Overview__
 
-Review of probability theory, convergence of random variables, statistical models, statistical functionals, maximum likelihood estimation, and computational methods.
+Inference based on the likelihood function has a prominent role in both theoretical and applied statistics.  This course will introduce some of the more recent developments in likelihood-based inference, with an emphasis on adaptations developed for models with complex structure or large numbers of nuisance parameters.  Special emphasis will be given to applications in biology and medicine throughout the course. Tentative topics to be covered include: review of likelihood inference and asymptotic results; adjustments to profile likelihood; misspecified models — composite likelihood; partially specified models — quasi-likelihood; properties and limitations of penalized likelihood
 
 
-Important information related to STA2112 will be posted on this website including:
+Important information related to STA4508 will be posted on this website including:
 
  - [Course syllabus](syllabus.html)
  
@@ -44,6 +45,6 @@ Important information related to STA2112 will be posted on this website includin
 
 <br>
 
-<a href="https://github.com/jlgrons/STA2112-MathStat">R Markdown source for this website</a>
+<a href="https://github.com/jlgrons/STA4508-LikelihoodInference">R Markdown source for this website</a>
 
 
