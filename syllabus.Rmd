@@ -65,7 +65,7 @@ The mark for this course is based on:
 
 ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
 
-- Class slides, notes, and other important information can be found on the [course website.](https://sta2112.github.io/)
+- Class slides, notes, and other important information can be found on the [course website.]https://jlgrons.github.io/STA4508-LikelihoodInference)
 
 - Assignments will be turned in on [Quercus](https://q.utoronto.ca/courses/296845).
 
