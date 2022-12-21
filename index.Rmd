@@ -21,7 +21,7 @@ Strong command of:
 
 - Advanced calculus (eg. MAT237)
 - Linear algebra (eg. MAT223, MAT224)
-- Mathematical statistics (eg. STA2112)
+- Mathematical statistics (eg. STA2112, STA3000)
 
 Enrollment is restricted to graduate students in Statistics, Biostatistics, and Computer Science.
 
