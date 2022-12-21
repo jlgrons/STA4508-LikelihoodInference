@@ -14,30 +14,37 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 
-- Week 1: Review of likelihood inference and asymptotic results
+## Week 1
+  - Lectrue: Review of likelihood inference and asymptotic results
 
 <br>
 
-- Week 2: The likelihood family: Marginal, conditional, profile, quasi, empirical, $\dots$ 
+## Week 2
+  - Lecture: The likelihood family: Marginal, conditional, profile, quasi, empirical, etc. 
   - Discussion of [Likelihood Inference](https://utstat.toronto.edu/reid/research/likelihood-final.pdf) by Nancy Reid
 
 <br>
 
-- Week 3: Likelihood inference with missing data
+## Week 3
+  - Lecture: Likelihood inference with missing data
   - Discussion of (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker
 
 <br>
 
-- Week 4: High-dimensional likelihood inference 
+## Week 4
+  - Lecture: High-dimensional likelihood inference 
   - Discussion of [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès 
 
 <br>
 
-- Week 5: Final Presentations
+## Week 5
+
+- Final Presentations
 
 <br>
 
-- Week 6: Final Presentations
+## Week 6
+- Final Presentations
 
 
 
