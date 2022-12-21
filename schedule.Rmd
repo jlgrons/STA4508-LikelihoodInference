@@ -26,7 +26,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## Week 3
-  - Lecture: Likelihood inference with missing data
+  - Lecture: Likelihood inference (i) under model misspecification and (ii) with missing data
   - Discussion of (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker
 
 <br>
