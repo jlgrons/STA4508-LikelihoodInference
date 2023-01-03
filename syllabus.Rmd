@@ -33,7 +33,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Lectures
 
-- Tuesday, 2-4pm EST
+- Tuesday, 2-4ish pm EST
 - All lecture slides will be posted to the course website once the lecture is finished
 
 ******
@@ -65,7 +65,7 @@ The mark for this course is based on:
 
 ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
 
-- Class slides, notes, and other important information can be found on the [course website.]https://jlgrons.github.io/STA4508-LikelihoodInference)
+- Class slides, notes, and other important information can be found on the [course website](https://jlgrons.github.io/STA4508-LikelihoodInference).
 
 - Assignments will be turned in on [Quercus](https://q.utoronto.ca/courses/296845).
 
@@ -74,7 +74,7 @@ The mark for this course is based on:
 
 ## <i class="fas fa-book" aria-hidden="true"></i> Textbooks
 
-Required texts:
+Relevant texts:
 
 - *Mathematical Statistics* by K. Knight [[hard copy]](https://www.routledge.com/Mathematical-Statistics/Knight/p/book/9781584881780)
 
