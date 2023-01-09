@@ -57,8 +57,8 @@ Students will be evaluated according to [University Assessment and Grading Pract
 The mark for this course is based on:
 
 - Class participation (20\%)
-- Group paper discussion (40\%)
-- Individual final report (40\%)
+- Group paper discussion (30\%)
+- Individual final report (50\%)
 
 
 ******
