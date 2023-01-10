@@ -15,7 +15,8 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 
 ## Week 1
-  - Lectrue: Review of likelihood inference and asymptotic results
+  - Course introduction [[slides]()]
+  - Lecture: Review of likelihood inference and asymptotic results [[slides]()]
 
 <br>
 
@@ -27,13 +28,17 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## Week 3
   - Lecture: Likelihood inference (i) under model misspecification and (ii) with missing data
-  - Discussion: (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker
+  - Discussion on Missing Data 
+  
+  <!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker -->
 
 <br>
 
 ## Week 4
   - Lecture: High-dimensional likelihood inference 
-  - Discussion:  [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès 
+  - Discussion on High-dimensional likelihood inference
+  
+  <!-- [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès  -->
 
 <br>
 
