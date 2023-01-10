@@ -1,13 +1,13 @@
 ---
-title: "STA2112: Mathematical Statistics I"
+title: "STA4508: Topics in Likelihood Inference"
 subtitle: "Syllabus"
-date: Fall 2022
+date: Winter 2023
 
 output: 
   html_document:
    toc: true
    toc_float: true
-   theme: flatly
+   theme: co
 ---
 
 ```{r setup, include=FALSE}
@@ -19,53 +19,22 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## <i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team
-- <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Professor: [Jesse Gronsbell](https://sites.google.com/view/jgronsbell/home?authuser=0)
+- <span class="glyphicon glyphicon-user" aria-hidden="true"></span> [Professor Jesse Gronsbell](https://sites.google.com/view/jgronsbell/home?authuser=0)
 
-- <span class="fas fa-user-friends" aria-hidden="true"></span> Teaching Assistant: [Jianhui Gao](https://sites.google.com/view/jianhuigao)
-
-<br>
-
-******
-
-## <i class="glyphicon glyphicon-comment" aria-hidden="true"></i> Course Communication
-
-- <span class="fas fa-question" aria-hidden="true"></span> Questions about this course should be directed to the [Discussion board](https://q.utoronto.ca/courses/273117/) integrated within Quercus, which students can access by logging in with their UTORID.  One of the instructors will try to answer promptly.  Please see the Course Policies section for more detail. 
-
-- <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> If you don't think your question is appropriate for the class discussion board (e.g.\ it is not related to course content or logistics), please reach out to the teaching team using the direct message functionality on Quercus.  Allow up to 72 business hours for a reply. Regular emails will not be answered. 
-
-<br>
 
 ******
 
 ## <i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours
 
-- Professor: Virtual from 2:00-3:00pm on Tuesdays. 
+- By appointment.
 
-Zoom link:  https://utoronto.zoom.us/j/88068311938.
-
-- Teaching Assistants: Virtual from 3:00-4:00pm on Wednesdays. 
-
-Zoom link: https://utoronto.zoom.us/j/4709510697
-
-<br>
 
 ******
 
-## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Class Times and Location 
+## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Lectures
 
-<br>
-
-### _Lectures_
-- Tuesday, 10-12pm EST
-- All lecture slides will be posted to the course website once the lecture is finished.
-
-<br>
-
-### _Tutorials_
-- Tuesday, 12-1pm EST 
-- All content will be posted to the course website once the lab is finished.
-
-<br>
+- Tuesday, 2-4ish pm EST
+- All lecture slides will be posted to the course website once the lecture is finished
 
 ******
 
@@ -73,115 +42,50 @@ Zoom link: https://utoronto.zoom.us/j/4709510697
 
 This course is designed for graduate students in Statistics, Biostatistics, and Computer Science
 
-Review of probability theory, convergence of random variables, statistical models, statistical functionals, maximum likelihood estimation, and computational methods.
+Inference based on the likelihood function has a prominent role in both theoretical and applied statistics.  This course will introduce some of the more recent developments in likelihood-based inference, with an emphasis on adaptations developed for models with complex structure or large numbers of nuisance parameters.  Special emphasis will be given to applications in biology and medicine throughout the course. Tentative topics to be covered include: review of likelihood inference and asymptotic results; adjustments to profile likelihood; misspecified models — composite likelihood; partially specified models — quasi-likelihood; properties and limitations of penalized likelihood.
 
 <br>
 
-******
-
-## <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Learning objectives 
-
-By the end of this course, you should be able to:
-
-- Understand basic probability theory.
-
-- Evaluate convergence of sequences of random variables
-
-- Assess properties of estimators, primarily when $n$ is large (ie.\ asymptotics).
-
-- Use fundamental estimation and inference procedures (eg.\ MLE, bootstrap).
-
-
-<br>
 
 ******
 
 
 ## <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation
 
-Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). The table below shows the weight of each assessment. 
+Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). 
 
-```{r, echo=FALSE}
-library(tidyverse)
-jsc270coursegrading <- read_csv("Fall2022_Grading.csv")
-knitr::kable(jsc270coursegrading[1:8,])
-```
+The mark for this course is based on:
 
-You are allowed one late day to use on a homework assignment (not a Perusall paper) at any time throughout the course.  You must write "I am using the late day" at the top of page 1.
-<br>
+- Class participation (20\%)
+- Group paper discussion (30\%)
+- Individual final report (50\%)
+
 
 ******
 
 ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
 
-- Class slides, notes, and other important information can be found on the [course website.](https://sta2112.github.io/)
+- Class slides, notes, and other important information can be found on the [course website](https://jlgrons.github.io/STA4508-LikelihoodInference).
 
-- Questions and Answers can be posted on the [Quercus discussion board](https://q.utoronto.ca/courses/273117/).
+- Assignments will be turned in on [Quercus](https://q.utoronto.ca/courses/296845).
 
-
-<br>
 
 ******
 
 ## <i class="fas fa-book" aria-hidden="true"></i> Textbooks
 
-Required texts:
+Relevant texts:
 
 - *Mathematical Statistics* by K. Knight [[hard copy]](https://www.routledge.com/Mathematical-Statistics/Knight/p/book/9781584881780)
 
-- *All of Statistics* by  L. Wasserman [[ecopy]](https://link.springer.com/book/10.1007/978-0-387-21736-9)
-
-- *Statistical Models * by A.C. Davison [[ecopy]](https://onesearch.library.utoronto.ca)
-
-
-Additional textbooks: 
-
-- *Statistical Inference* by  G. Casella & R.L. Berger [[hard cover]](https://blackwells.co.uk/bookshop/product/9780534243128?gC=4cfad707612)
-
-- *Elements of Large Sample Theory* by E.L. Lehmann  [[ecopy]](https://onesearch.library.utoronto.ca)
-
-- *Computer Age Statistical Inference* by  B. Efron & T. Hastie [[ecopy]](https://onesearch.library.utoronto.ca)
-
-<br>
-
+- Additional resources will be distributed on [Quercus](https://q.utoronto.ca/courses/296845).
 
 
 ******
 
-## <i class="glyphicon glyphicon-edit" aria-hidden="true"></i> Perusall
 
-Perusall is an online tool that allows students to read and annotate course content. To get access to Perusall, please use the following link:
-
-Perusall: https://app.perusall.com/home
-
-You will need to sign up for a free account. Once your account is confirmed, you can enroll in this class using the course code: `GRONSBELL-JAU6J `. 
-
-Throughout the semester several papers will be posted for students to read and analyze. 
- 
-<br>
-
-
-******
-
-## <i class="fas fa-code" aria-hidden="true"></i> Computing
-
-The course will use [R](https://www.r-project.org) for computing.  I highly recommend the [RStudio](https://www.rstudio.com) environment. You will need to install both of these on your computer. 
-
-You can download R from [CRAN](https://cran.r-project.org/) and the free Desktop Version of Rstudio [here](https://rstudio.com/products/rstudio/\#rstudio-desktop).  
-
-I also strongly recommend using [R Markdown](https://rmarkdown.rstudio.com) to produce documents for your analyses.  
-
-There are many online resources for R and Rstudio, including the R those on the R resources section of this website and some recommended resources listed below.
-
-* If you are new to R, you can take a look at [Quick-R](https://www.statmethods.net). 
-* If you are experienced with R, the [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are invaluable.  
-* You can also check out our [computing materials](https://jlgrons.github.io/UofT-DoSS-SPB/methods_computing.html) from the summer bootcamp offered by the department. 
-<br>
-
-*******
 ## <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Policies
 
-<br>
 
 ### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Missed Work Policy {#missed_work}
 
@@ -214,29 +118,13 @@ Any requests to have your work remarked must contain a written justification for
 <br>
 
 
-### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Communicating with the teaching team {#communicating}
-
-Questions about course material or organization, such as,
-  
-- Is it appropriate to use this statistical method?
-- How do I get rid of this error message?
-- What is the due date?
-
-should be posted on the Quercus discussion board. 
-
-If your communication is private, such as, "I missed the test because I was ill", then contact your instructor.
-
-Always use the direct messaging functionality on [Quercus](https://q.utoronto.ca/) to ensure that your message reaches out the instructor and/or TA's. Allow up to 72 business hours for a reply. Regular emails will not be answered. 
-
-<br>
-
 ### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Academic Integrity
 
 You are responsible for knowing the content of the [University of Toronto’s Code of Behaviour on Academic Matters](http://www.governingcouncil.utoronto.ca/policies/behaveac.htm).
 
 As a general rule, we encourage you to discuss course material with each other and ask others for advice.  However, it is not permitted to share complete solutions or to directly share code for anything that is to be handed in.  When an assignment is required to be completed as a team, you may share solutions and code with other members of your team, but not with another team in the class.  For example, "For question 2.1 what R function did you use?" is a fair question; "Please show me your code for question 2.1" is not.
 
-If you have any questions about what is or is not permitted in this course, please do not hesitate to contact [the professor and/or teaching assistants via Quercus](https://q.utoronto.ca/).
+If you have any questions about what is or is not permitted in this course, please do not hesitate to contact the professor. 
 
 <br>
 
@@ -267,7 +155,7 @@ There may be times when you are unable to complete course work on time due to no
 
 ## <i class="fas fa-user-plus" aria-hidden="true"></i> Acknowledgements
 
-The following people have contributed to the design of the course materials and website: Prof. Jesse Gronsbell (2020-2022), Robert Zimmerman (2021), and Jianhui Gao (2022).
+The following people have contributed to the design of the course materials and website: Prof. Jesse Gronsbell (2023).
 <br>
 
 ****** 
