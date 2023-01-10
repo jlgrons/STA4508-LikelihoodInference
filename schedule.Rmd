@@ -15,14 +15,16 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 
 ## Week 1
-  - Course introduction [[slides]()]
-  - Lecture: Review of likelihood inference and asymptotic results [[slides]()]
+  - Course introduction 
+  - Lecture: Review of likelihood inference and asymptotic results 
 
 <br>
 
 ## Week 2
   - Lecture: The likelihood family: Marginal, conditional, profile, quasi, empirical, etc. 
-  - Discussion: [Likelihood Inference](https://utstat.toronto.edu/reid/research/likelihood-final.pdf) by Nancy Reid
+  - Discussion
+    - Background: [Likelihood Inference](https://utstat.toronto.edu/reid/research/likelihood-final.pdf) by Nancy Reid
+    - Application: [PIE: A prior knowledge guided integrated likelihood estimation method for bias reduction in association studies using electronic health records data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7378882/) by Jing Huang et al.
 
 <br>
 
