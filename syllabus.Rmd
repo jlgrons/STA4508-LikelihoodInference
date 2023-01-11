@@ -60,6 +60,7 @@ The mark for this course is based on:
 - Group paper discussion (30\%)
 - Individual final report (50\%)
 
+Class participation and the group paper discussion will be graded as Credit/No Credit.  The individual final report will be marked on a regular scale (eg. out of 100).
 
 ******
 
@@ -155,7 +156,7 @@ There may be times when you are unable to complete course work on time due to no
 
 ## <i class="fas fa-user-plus" aria-hidden="true"></i> Acknowledgements
 
-The following people have contributed to the design of the course materials and website: Prof. Jesse Gronsbell (2023).
+The following people have contributed to the design of the course materials and website: Profs. Nancy Reid (2016, 2022) and Jesse Gronsbell (2023).
 <br>
 
 ****** 
