@@ -23,5 +23,4 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * Introduction [[slides](https://drive.google.com/file/d/1qJoUhvt2XmpGsKHTEuSHGMs89AnQKYuS/view?usp=sharing)] [[slides+scribbles](https://drive.google.com/file/d/1FF7Yro15MSFfgyj9g5SDHInZ4Dz5X-lG/view?usp=sharing)]
 * Asymptotics [[slides](https://drive.google.com/file/d/1LgGm0KPUD-uJ7yJb9Nvl3HFOSLqmBfG5/view?usp=sharing)] [[slides+scribbles](https://drive.google.com/file/d/1Fw-C9ZKcYRklA165wkKPu_czL9B7UqVS/view?usp=sharing)]
 
-I will add the slides with my scribbles tomorrow AM. 
 
