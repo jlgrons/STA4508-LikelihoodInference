@@ -13,7 +13,7 @@
 
 <title>schedule.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -391,11 +395,15 @@ data</a> by Jing Huang et al.</li>
 <div id="week-3" class="section level2">
 <h2>Week 3</h2>
 <ul>
-<li>Lecture: Finish Likelihood Family &amp; Likelihood inference (i)
-under model misspecification and (ii) with missing data</li>
-<li>Discussion on Missing Data</li>
+<li>Lecture: Likelihood inference under model misspecification</li>
+<li>Discussion
+<ul>
+<li>Methodology: <a
+href="https://pubmed.ncbi.nlm.nih.gov/30353541/">Automated feature
+selection of predictors in electronic medical records data</a> by
+Jessica Gronsbell et al.</li>
+</ul></li>
 </ul>
-<p><!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker --></p>
 <p><br></p>
 </div>
 <div id="week-4" class="section level2">
@@ -421,6 +429,7 @@ under model misspecification and (ii) with missing data</li>
 </ul>
 <!-- https://utstat.toronto.edu/reid/research/Carrasco-R-published.pdf -->
 <!-- https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture16.pdf -->
+<p><!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker --></p>
 </div>
 
 
