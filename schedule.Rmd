@@ -29,10 +29,9 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## Week 3
-  - Lecture: Finish Likelihood Family & Likelihood inference (i) under model misspecification and (ii) with missing data
-  - Discussion on Missing Data 
-  
-  <!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker -->
+  - Lecture: Likelihood inference under model misspecification 
+  - Discussion
+    - Methodology: [Automated feature selection of predictors in electronic medical records data](https://pubmed.ncbi.nlm.nih.gov/30353541/) by Jessica Gronsbell et al.
 
 <br>
 
@@ -58,3 +57,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 <!-- https://utstat.toronto.edu/reid/research/Carrasco-R-published.pdf -->
 
 <!-- https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture16.pdf -->
+
+
+  
+  <!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker -->
