@@ -21,7 +21,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## Week 2
-  - Lecture: The likelihood family: Marginal, conditional, profile, quasi, empirical, etc. 
+  - Lecture: The likelihood family: Profile, marginal, conditional, quasi, empirical, etc. 
   - Discussion
     - Background: [Likelihood Inference](https://utstat.toronto.edu/reid/research/likelihood-final.pdf) by Nancy Reid
     - Application: [PIE: A prior knowledge guided integrated likelihood estimation method for bias reduction in association studies using electronic health records data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7378882/) by Jing Huang et al.
@@ -29,7 +29,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## Week 3
-  - Lecture: Likelihood inference (i) under model misspecification and (ii) with missing data
+  - Lecture: Finish Likelihood Family & Likelihood inference (i) under model misspecification and (ii) with missing data
   - Discussion on Missing Data 
   
   <!-- (1) [You want me to analyze data I don't have? Are you insane?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4198883/) by Xiao-Li Meng and (2) [Maximum likelihood estimation with missing outcomes: From simplicity to complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879193/) by Stuart Baker -->
