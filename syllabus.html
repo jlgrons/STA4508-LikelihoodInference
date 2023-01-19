@@ -13,7 +13,7 @@
 
 <title>STA4508: Topics in Likelihood Inference</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -310,7 +314,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -326,7 +330,7 @@ div.tocify {
   <a href="schedule.html">Schedule</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Course Documents
      
     <span class="caret"></span>
@@ -352,7 +356,8 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">STA4508: Topics in Likelihood Inference</h1>
+<h1 class="title toc-ignore">STA4508: Topics in Likelihood
+Inference</h1>
 <h3 class="subtitle">Syllabus</h3>
 <h4 class="date">Winter 2023</h4>
 
@@ -361,51 +366,79 @@ div.tocify {
 
 <p><br></p>
 <div id="teaching-team" class="section level2">
-<h2><i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team</h2>
+<h2><i class="fas fa-user-friends" aria-hidden="true"></i> Teaching
+Team</h2>
 <ul>
-<li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <a href="https://sites.google.com/view/jgronsbell/home?authuser=0">Professor Jesse Gronsbell</a></li>
+<li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <a
+href="https://sites.google.com/view/jgronsbell/home?authuser=0">Professor
+Jesse Gronsbell</a></li>
 </ul>
 <hr />
 </div>
 <div id="office-hours" class="section level2">
-<h2><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours</h2>
+<h2><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office
+Hours</h2>
 <ul>
 <li>By appointment.</li>
 </ul>
 <hr />
 </div>
 <div id="lectures" class="section level2">
-<h2><i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Lectures</h2>
+<h2><i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i>
+Lectures</h2>
 <ul>
 <li>Tuesday, 2-4ish pm EST</li>
-<li>All lecture slides will be posted to the course website once the lecture is finished</li>
+<li>All lecture slides will be posted to the course website once the
+lecture is finished</li>
 </ul>
 <hr />
 </div>
 <div id="course-description" class="section level2">
-<h2><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Course Description</h2>
-<p>This course is designed for graduate students in Statistics, Biostatistics, and Computer Science</p>
-<p>Inference based on the likelihood function has a prominent role in both theoretical and applied statistics. This course will introduce some of the more recent developments in likelihood-based inference, with an emphasis on adaptations developed for models with complex structure or large numbers of nuisance parameters. Special emphasis will be given to applications in biology and medicine throughout the course. Tentative topics to be covered include: review of likelihood inference and asymptotic results; adjustments to profile likelihood; misspecified models — composite likelihood; partially specified models — quasi-likelihood; properties and limitations of penalized likelihood.</p>
+<h2><span class="glyphicon glyphicon-education"
+aria-hidden="true"></span> Course Description</h2>
+<p>This course is designed for graduate students in Statistics,
+Biostatistics, and Computer Science</p>
+<p>Inference based on the likelihood function has a prominent role in
+both theoretical and applied statistics. This course will introduce some
+of the more recent developments in likelihood-based inference, with an
+emphasis on adaptations developed for models with complex structure or
+large numbers of nuisance parameters. Special emphasis will be given to
+applications in biology and medicine throughout the course. Tentative
+topics to be covered include: review of likelihood inference and
+asymptotic results; adjustments to profile likelihood; misspecified
+models — composite likelihood; partially specified models —
+quasi-likelihood; properties and limitations of penalized
+likelihood.</p>
 <p><br></p>
 <hr />
 </div>
 <div id="evaluation" class="section level2">
-<h2><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation</h2>
-<p>Students will be evaluated according to <a href="https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012">University Assessment and Grading Practices Policy</a>.</p>
+<h2><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+Evaluation</h2>
+<p>Students will be evaluated according to <a
+href="https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012">University
+Assessment and Grading Practices Policy</a>.</p>
 <p>The mark for this course is based on:</p>
 <ul>
 <li>Class participation (20%)</li>
 <li>Group paper discussion (30%)</li>
 <li>Individual final report (50%)</li>
 </ul>
-<p>Class participation and the group paper discussion will be graded as Credit/No Credit. The individual final report will be marked on a regular scale (eg. out of 100).</p>
+<p>Class participation and the group paper discussion will be graded as
+Credit/No Credit. The individual final report will be marked on a
+regular scale (eg./ out of 100).</p>
 <hr />
 </div>
 <div id="course-websites" class="section level2">
-<h2><span class="fas fa-globe" aria-hidden="true"></span> Course Websites</h2>
+<h2><span class="fas fa-globe" aria-hidden="true"></span> Course
+Websites</h2>
 <ul>
-<li><p>Class slides, notes, and other important information can be found on the <a href="https://jlgrons.github.io/STA4508-LikelihoodInference">course website</a>.</p></li>
-<li><p>Assignments will be turned in on <a href="https://q.utoronto.ca/courses/296845">Quercus</a>.</p></li>
+<li><p>Class slides, notes, and other important information can be found
+on the <a
+href="https://jlgrons.github.io/STA4508-LikelihoodInference">course
+website</a>.</p></li>
+<li><p>Assignments will be turned in on <a
+href="https://q.utoronto.ca/courses/296845">Quercus</a>.</p></li>
 </ul>
 <hr />
 </div>
@@ -413,70 +446,163 @@ div.tocify {
 <h2><i class="fas fa-book" aria-hidden="true"></i> Textbooks</h2>
 <p>Relevant texts:</p>
 <ul>
-<li><p><em>Mathematical Statistics</em> by K. Knight <a href="https://www.routledge.com/Mathematical-Statistics/Knight/p/book/9781584881780">[hard copy]</a></p></li>
-<li><p>Additional resources will be distributed on <a href="https://q.utoronto.ca/courses/296845">Quercus</a>.</p></li>
+<li><p><em>Mathematical Statistics</em> by K. Knight <a
+href="https://www.routledge.com/Mathematical-Statistics/Knight/p/book/9781584881780">[hard
+copy]</a></p></li>
+<li><p>Additional resources will be distributed on <a
+href="https://q.utoronto.ca/courses/296845">Quercus</a>.</p></li>
 </ul>
 <hr />
 </div>
 <div id="course-policies" class="section level2">
-<h2><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Policies</h2>
+<h2><span class="glyphicon glyphicon-info-sign"
+aria-hidden="true"></span> Course Policies</h2>
 <div id="missed_work" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Missed Work Policy</h3>
-<p>Valid reasons for missing an assessment include: illness, injury, or other relevant personal issues. Any of the following types of documentation will be accepted to verify a student’s reason for missing an assessment:</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Missed Work Policy</h3>
+<p>Valid reasons for missing an assessment include: illness, injury, or
+other relevant personal issues. Any of the following types of
+documentation will be accepted to verify a student’s reason for missing
+an assessment:</p>
 <ul>
-<li><p><a href="http://www.illnessverification.utoronto.ca/index.php">University of Toronto Verification of Student Illness or Injury form</a>. The form must indicate that the degree of incapacitation on academic functioning is moderate, serious, or severe in order to be considered a valid medical reason for missing.</p></li>
+<li><p><a
+href="http://www.illnessverification.utoronto.ca/index.php">University
+of Toronto Verification of Student Illness or Injury form</a>. The form
+must indicate that the degree of incapacitation on academic functioning
+is moderate, serious, or severe in order to be considered a valid
+medical reason for missing.</p></li>
 <li><p>Student Health or Disability Related Certificate.</p></li>
 <li><p>A College Registrar’s Letter.</p></li>
 <li><p>Accessibility Services Letter.</p></li>
 </ul>
-<p>If an assignment due date is missed for a valid reason then your assignment will not be subject to a late penalty.</p>
-<p>Other reasons for missing an assignment due date, without documentation, will require prior approval by your instructor. If prior approval is not received and an assessment is not submitted on time then your assessment will be subject to a late penalty (see <a href="#late_penalty">Late Penalty</a>).</p>
+<p>If an assignment due date is missed for a valid reason then your
+assignment will not be subject to a late penalty.</p>
+<p>Other reasons for missing an assignment due date, without
+documentation, will require prior approval by your instructor. If prior
+approval is not received and an assessment is not submitted on time then
+your assessment will be subject to a late penalty (see <a
+href="#late_penalty">Late Penalty</a>).</p>
 <p><br></p>
 </div>
 <div id="late_penalty" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Late Penalty</h3>
-<p>The late penalty for a missed due date is 20% per day (i.e., 24 hours). For example, if the work is submitted after 5 days (including weekend days and holidays) then you will receive a grade of zero for the missed work.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Late Penalty</h3>
+<p>The late penalty for a missed due date is 20% per day (i.e., 24
+hours). For example, if the work is submitted after 5 days (including
+weekend days and holidays) then you will receive a grade of zero for the
+missed work.</p>
 <p><br></p>
 </div>
 <div id="marking-concerns" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Marking Concerns</h3>
-<p>Any requests to have your work remarked must contain a written justification for consideration. Remarking requests should be made within one week of receiving your marked work. Re-evaluation appeals are at the discretion of the instructors. Note that adjustments in marks will be rare and could equally result in a lowering or raising of the mark. If a re-revaluation is completed by the instructors, the student must accept the resulting mark as the new mark, whether it goes up or down or remains the same. When appealing a re-evaluation decision, the student accepts this condition.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Marking Concerns</h3>
+<p>Any requests to have your work remarked must contain a written
+justification for consideration. Remarking requests should be made
+within one week of receiving your marked work. Re-evaluation appeals are
+at the discretion of the instructors. Note that adjustments in marks
+will be rare and could equally result in a lowering or raising of the
+mark. If a re-revaluation is completed by the instructors, the student
+must accept the resulting mark as the new mark, whether it goes up or
+down or remains the same. When appealing a re-evaluation decision, the
+student accepts this condition.</p>
 <p><br></p>
 </div>
 <div id="academic-integrity" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Academic Integrity</h3>
-<p>You are responsible for knowing the content of the <a href="http://www.governingcouncil.utoronto.ca/policies/behaveac.htm">University of Toronto’s Code of Behaviour on Academic Matters</a>.</p>
-<p>As a general rule, we encourage you to discuss course material with each other and ask others for advice. However, it is not permitted to share complete solutions or to directly share code for anything that is to be handed in. When an assignment is required to be completed as a team, you may share solutions and code with other members of your team, but not with another team in the class. For example, “For question 2.1 what R function did you use?” is a fair question; “Please show me your code for question 2.1” is not.</p>
-<p>If you have any questions about what is or is not permitted in this course, please do not hesitate to contact the professor.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Academic Integrity</h3>
+<p>You are responsible for knowing the content of the <a
+href="http://www.governingcouncil.utoronto.ca/policies/behaveac.htm">University
+of Toronto’s Code of Behaviour on Academic Matters</a>.</p>
+<p>As a general rule, we encourage you to discuss course material with
+each other and ask others for advice. However, it is not permitted to
+share complete solutions or to directly share code for anything that is
+to be handed in. When an assignment is required to be completed as a
+team, you may share solutions and code with other members of your team,
+but not with another team in the class. For example, “For question 2.1
+what R function did you use?” is a fair question; “Please show me your
+code for question 2.1” is not.</p>
+<p>If you have any questions about what is or is not permitted in this
+course, please do not hesitate to contact the professor.</p>
 <p><br></p>
 </div>
 <div id="accessibility-needs" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accessibility Needs</h3>
-<p>Students with diverse learning styles and needs are welcome in this course. If you have an acute or ongoing disability issue or accommodation need, you should register with Accessibility Services (AS) at the beginning of the academic year by visiting <a href="http://www.studentlife.utoronto.ca/as/new-registration">http://www.studentlife.utoronto.ca/as/new-registration</a>. Without registration, you will not be able to verify your situation with your instructors, and instructors will not be advised about your accommodation needs. AS will assess your situation, develop an accommodation plan with you, and support you in requesting accommodation for your course work. Remember that the process of accommodation is private: AS will not share details of your needs or condition with any instructor, and your instructors will not reveal that you are registered with AS</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Accessibility Needs</h3>
+<p>Students with diverse learning styles and needs are welcome in this
+course. If you have an acute or ongoing disability issue or
+accommodation need, you should register with Accessibility Services (AS)
+at the beginning of the academic year by visiting <a
+href="http://www.studentlife.utoronto.ca/as/new-registration">http://www.studentlife.utoronto.ca/as/new-registration</a>.
+Without registration, you will not be able to verify your situation with
+your instructors, and instructors will not be advised about your
+accommodation needs. AS will assess your situation, develop an
+accommodation plan with you, and support you in requesting accommodation
+for your course work. Remember that the process of accommodation is
+private: AS will not share details of your needs or condition with any
+instructor, and your instructors will not reveal that you are registered
+with AS</p>
 <p><br></p>
 </div>
 <div id="religious-accomodations" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Religious Accomodations</h3>
-<p>As a student at the University of Toronto, you are part of a diverse community that welcomes and includes students and faculty from a wide range of cultural and religious traditions. For my part, I will make every reasonable effort to avoid scheduling tests, examinations, or other compulsory activities on religious holy days not captured by statutory holidays. Further to University Policy, if you anticipate being absent from class or missing a major course activity (such as a test or in-class assignment) due to a religious observance, please let me know as early in the course as possible, and with sufficient notice (at least two to three weeks), so that we can work together to make alternate arrangements.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Religious Accomodations</h3>
+<p>As a student at the University of Toronto, you are part of a diverse
+community that welcomes and includes students and faculty from a wide
+range of cultural and religious traditions. For my part, I will make
+every reasonable effort to avoid scheduling tests, examinations, or
+other compulsory activities on religious holy days not captured by
+statutory holidays. Further to University Policy, if you anticipate
+being absent from class or missing a major course activity (such as a
+test or in-class assignment) due to a religious observance, please let
+me know as early in the course as possible, and with sufficient notice
+(at least two to three weeks), so that we can work together to make
+alternate arrangements.</p>
 <p><br></p>
 </div>
 <div id="specific-medical-circumstances" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Specific Medical Circumstances</h3>
-<p>If you become ill and it affects your ability to do your academic work, consult me right away. Normally, I will ask you for medical documentation in support of your specific medical circumstances. The University’s Verification of Student Illness or Injury (VOI) form is recommended because it indicates the impact and severity of the illness, while protecting your privacy about the details of the nature of the illness. You can submit a different form (like a letter from a doctor), as long as it is an original document, and it contains the same information as the VOI. For more information, please see <a href="http://www.illnessverification.utoronto.ca">http://www.illnessverification.utoronto.ca</a> If you get a concussion, break your hand, or suffer some other acute injury, you should register with Accessibility Services as soon as possible.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Specific Medical Circumstances</h3>
+<p>If you become ill and it affects your ability to do your academic
+work, consult me right away. Normally, I will ask you for medical
+documentation in support of your specific medical circumstances. The
+University’s Verification of Student Illness or Injury (VOI) form is
+recommended because it indicates the impact and severity of the illness,
+while protecting your privacy about the details of the nature of the
+illness. You can submit a different form (like a letter from a doctor),
+as long as it is an original document, and it contains the same
+information as the VOI. For more information, please see <a
+href="http://www.illnessverification.utoronto.ca">http://www.illnessverification.utoronto.ca</a>
+If you get a concussion, break your hand, or suffer some other acute
+injury, you should register with Accessibility Services as soon as
+possible.</p>
 <p><br></p>
 </div>
 <div id="accommodation-for-personal-reasons" class="section level3">
-<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accommodation for Personal Reasons</h3>
-<p>There may be times when you are unable to complete course work on time due to non-medical reasons. If you have concerns, speak to me or to an advisor in the Registrar’s office; they can help you to decide if you want to request an extension or accommodation. They may be able to provide you with a Registrar’s letter of support to give to your instructors, and importantly, connect you with other resources on campus for help with your situation.</p>
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Accommodation for Personal Reasons</h3>
+<p>There may be times when you are unable to complete course work on
+time due to non-medical reasons. If you have concerns, speak to me or to
+an advisor in the Registrar’s office; they can help you to decide if you
+want to request an extension or accommodation. They may be able to
+provide you with a Registrar’s letter of support to give to your
+instructors, and importantly, connect you with other resources on campus
+for help with your situation.</p>
 <p><br></p>
 <hr />
 </div>
 </div>
 <div id="acknowledgements" class="section level2">
-<h2><i class="fas fa-user-plus" aria-hidden="true"></i> Acknowledgements</h2>
-<p>The following people have contributed to the design of the course materials and website: Profs. Nancy Reid (2016, 2022) and Jesse Gronsbell (2023). <br></p>
+<h2><i class="fas fa-user-plus" aria-hidden="true"></i>
+Acknowledgements</h2>
+<p>The following people have contributed to the design of the course
+materials and website: Profs. Nancy Reid (2016, 2022) and Jesse
+Gronsbell (2023). <br></p>
 <hr />
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This
+website is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License</a>.</p>
 </div>
 
 

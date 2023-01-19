@@ -60,7 +60,7 @@ The mark for this course is based on:
 - Group paper discussion (30\%)
 - Individual final report (50\%)
 
-Class participation and the group paper discussion will be graded as Credit/No Credit.  The individual final report will be marked on a regular scale (eg. out of 100).
+Class participation and the group paper discussion will be graded as Credit/No Credit.  The individual final report will be marked on a regular scale (eg./ out of 100).
 
 ******
 
