@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * Asymptotics [[slides](https://drive.google.com/file/d/1LgGm0KPUD-uJ7yJb9Nvl3HFOSLqmBfG5/view?usp=sharing)] [[slides+scribbles](https://drive.google.com/file/d/1Fw-C9ZKcYRklA165wkKPu_czL9B7UqVS/view?usp=sharing)]
 
 
-## Lecture 2: Likelihood Family - Jan 17
+## Lecture 2: Likelihood Fam - Jan 17
 
 * [[slides](https://drive.google.com/file/d/1i3IG2U8GaHgCjQV9h7cuY7CTnL-hPfxI/view?usp=sharing)] [[slides+scribbles](https://drive.google.com/file/d/150kwwQSHC9nRUVu8AkikOlKvJuzhKf8R/view?usp=sharing)]
 
