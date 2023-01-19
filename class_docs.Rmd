@@ -26,5 +26,6 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 ## Lecture 2: Likelihood Family - Jan 17
 
-* [[slides](https://drive.google.com/file/d/1i3IG2U8GaHgCjQV9h7cuY7CTnL-hPfxI/view?usp=sharing)]
+* [[slides](https://drive.google.com/file/d/1i3IG2U8GaHgCjQV9h7cuY7CTnL-hPfxI/view?usp=sharing)] [[slides+scribbles](https://drive.google.com/file/d/150kwwQSHC9nRUVu8AkikOlKvJuzhKf8R/view?usp=sharing)]
+
 
