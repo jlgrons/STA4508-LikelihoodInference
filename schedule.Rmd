@@ -31,15 +31,14 @@ knitr::opts_chunk$set(warning = F, message = F)
 ## Week 3
   - Lecture: Likelihood inference under model misspecification 
   - Discussion
-    - Methodology: [Automated feature selection of predictors in electronic medical records data](https://pubmed.ncbi.nlm.nih.gov/30353541/) by Jessica Gronsbell et al.
+    - Article: [Automated feature selection of predictors in electronic medical records data](https://pubmed.ncbi.nlm.nih.gov/30353541/) by Jessica Gronsbell et al.
 
 <br>
 
 ## Week 4
   - Lecture: High-dimensional likelihood inference 
   - Discussion on High-dimensional likelihood inference
-  
-  <!-- [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès  -->
+    - Article: [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès
 
 <br>
 
