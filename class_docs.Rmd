@@ -32,5 +32,5 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 ## Lecture 3: Model misspecification - Jan 24
 
 * [[slides](https://drive.google.com/file/d/1eHPeRJibN_DRIA1ctVu6ekvYZuTxgCYc/view?usp=sharing)]
-
+* [[slides+scribbles](https://drive.google.com/file/d/1u6X5PjcysT-1MSTbteE2i-ytF41Eky4A/view?usp=sharing)]
 
