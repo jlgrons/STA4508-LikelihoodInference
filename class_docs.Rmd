@@ -29,8 +29,13 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [[slides](https://drive.google.com/file/d/1i3IG2U8GaHgCjQV9h7cuY7CTnL-hPfxI/view?usp=sharing)] 
 * [[slides+scribbles](https://drive.google.com/file/d/150kwwQSHC9nRUVu8AkikOlKvJuzhKf8R/view?usp=sharing)]
 
-## Lecture 3: Model misspecification - Jan 24
+## Lecture 3: Misspecification - Jan 24
 
 * [[slides](https://drive.google.com/file/d/1eHPeRJibN_DRIA1ctVu6ekvYZuTxgCYc/view?usp=sharing)]
 * [[slides+scribbles](https://drive.google.com/file/d/1u6X5PjcysT-1MSTbteE2i-ytF41Eky4A/view?usp=sharing)]
+
+## Lecture 4: Penalization - Jan 31
+
+* [[slides](https://drive.google.com/file/d/1wO8p2Aftox9_VOS8j0eiblyuUmB04yrU/view?usp=sharing)]
+* [[slides+scribbles](https://drive.google.com/file/d/1SatilToGadKsvLhXQN7Q3KYoRSE854hT/view?usp=sharing)]
 

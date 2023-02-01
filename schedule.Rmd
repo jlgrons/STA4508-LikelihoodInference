@@ -36,7 +36,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ## Week 4
-  - Lecture: High-dimensional likelihood inference 
+  - Lecture: Penalized likelihood 
   - Discussion on High-dimensional likelihood inference
     - Article: [A modern maximum-likelihood theory for high-dimensional logistic regression](https://www-pnas-org.myaccess.library.utoronto.ca/doi/pdf/10.1073/pnas.1810420116) by Pragya Sur and Emmanuel J. Candès
 
@@ -54,8 +54,6 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 
 <!-- https://utstat.toronto.edu/reid/research/Carrasco-R-published.pdf -->
-
-<!-- https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture16.pdf -->
 
 
   
