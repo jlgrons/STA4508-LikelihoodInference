@@ -27,7 +27,7 @@ Enrollment is restricted to graduate students in Statistics, Biostatistics, and 
 
 __Overview__
 
-Inference based on the likelihood function has a prominent role in both theoretical and applied statistics.  This course will introduce some of the more recent developments in likelihood-based inference, with an emphasis on adaptations developed for models with complex structure or large numbers of nuisance parameters.  Special emphasis will be given to applications in biology and medicine throughout the course. Tentative topics to be covered include: review of likelihood inference and asymptotic results; adjustments to profile likelihood; misspecified models — composite likelihood; partially specified models — quasi-likelihood; properties and limitations of penalized likelihood
+Inference based on the likelihood function has a prominent role in both theoretical and applied statistics.  This course will introduce some of the more recent developments in likelihood-based inference, with an emphasis on adaptations developed for models with complex structure or large numbers of nuisance parameters.  Special emphasis will be given to applications in biology and medicine throughout the course. Tentative topics to be covered include: review of likelihood inference and asymptotic results; adjustments to profile likelihood; misspecified models — composite likelihood; partially specified models — quasi-likelihood; properties and limitations of penalized likelihood.
 
 
 Important information related to STA4508 will be posted on this website including:
